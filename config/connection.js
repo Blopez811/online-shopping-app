@@ -4,7 +4,7 @@ const Sequelize = require('sequelize');
 
 const sequelize = process.env.JAWSDB_URL
   ? new Sequelize(process.env.JAWSDB_URL)
-  : new Sequelize(process.env.DB_NAME, 'root', 'Blopez@811',  {
+  : new Sequelize('ecommerce_db', 'root', 'Blopez@811',  {
       host: 'localhost',
       dialect: 'mysql',
       dialectOptions: {
@@ -14,4 +14,4 @@ const sequelize = process.env.JAWSDB_URL
 
 module.exports = sequelize;
 
-//process.env.DB_USER, process.env.DB_PW,  these are the second and third arguments for dynamic input on line 7
+//process.env.DB_NAME, process.env.DB_USER, process.env.DB_PW,  these are the second and third arguments for dynamic input on line 7
