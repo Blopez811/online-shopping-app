@@ -23,8 +23,8 @@
   ## Usage
     Create a .env file with your mysql credentials in order to gain acces to the database. Source the db/schema.sql file and then run npm run seed to populate the database with data.This backend could be used as a basic set up for an online commerce site to give them access to the endpoints they would need on the front end. Below are two links to demo videos of the application:
     
-    [part 1:](https://www.youtube.com/watch?v=twxaWwAtz2E) 
-    [part 2:](https://www.youtube.com/watch?v=s_1TFnT58-Y)
+    part 1: https://www.youtube.com/watch?v=twxaWwAtz2E 
+    part 2: https://www.youtube.com/watch?v=s_1TFnT58-Y
 
   ## License  
     There is not a specific license currently for this application.
